@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa28436-b4b8-4593-af20-20290c7788f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.LoginTest.performanceGlitchUserLogin">
+  <component name="RunManager" selected="Gradle.Moxymind_Technical_Task_1_2 [build]">
     <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,6 +168,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Moxymind_Technical_Task_1_2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
       <module name="Moxymind_Technical_Task_1_2.test" />
       <shortenClasspath name="NONE" />
@@ -197,6 +218,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.Moxymind_Technical_Task_1_2 [build]" />
       <item itemvalue="Gradle.LoginTest" />
       <item itemvalue="Gradle.LoginTest.invalidLogin" />
       <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
@@ -205,6 +227,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Moxymind_Technical_Task_1_2 [build]" />
         <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
         <item itemvalue="Gradle.LoginTest" />
         <item itemvalue="Gradle.LoginTest.invalidLogin" />
