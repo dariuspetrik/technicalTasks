@@ -5,7 +5,6 @@ import com.microsoft.playwright.Playwright;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.asserts.SoftAssert;
-import requests.UserRequest;
 
 public class CommonBaseTest {
 
@@ -13,17 +12,10 @@ public class CommonBaseTest {
   protected APIRequestContext apiRequestContext;
   protected SoftAssert softAssert;
 
-  protected UserRequest userRequest;
-
-  public void initializeTestComponents(){
-    userRequest = new UserRequest(apiRequestContext);
-  }
   @BeforeMethod
   public void beforeMethodSetup() {
     softAssert = new SoftAssert();
     playwright = Playwright.create();
-    apiRequestContext = playwright.request().newContext();
-    initializeTestComponents();
   }
 
   @AfterMethod

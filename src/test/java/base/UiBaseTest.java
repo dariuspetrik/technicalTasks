@@ -36,7 +36,7 @@ public class UiBaseTest extends CommonBaseTest {
   }
   @BeforeMethod
   public void beforeMethodSetup() {
-   super.beforeMethodSetup();
+    super.beforeMethodSetup();
     browserContext = getBrowser().newContext();
     page = browserContext.newPage();
     initializePageObjects();

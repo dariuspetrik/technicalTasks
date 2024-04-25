@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa28436-b4b8-4593-af20-20290c7788f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/API/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/API/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/ApiBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/ApiBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/CommonBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/CommonBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/UiBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/UiBaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,8 +240,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ApiTest.createUser" />
-        <item itemvalue="Gradle.ApiTest.getUsersList" />
         <item itemvalue="Gradle.ApiTest" />
+        <item itemvalue="Gradle.ApiTest.getUsersList" />
         <item itemvalue="Gradle.ApiTest.getUsers" />
         <item itemvalue="Gradle.Moxymind_Technical_Task_1_2 [build]" />
       </list>
