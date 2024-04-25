@@ -1,6 +1,5 @@
 package tests.API;
 
-
 import java.util.Map;
 
 import base.ApiBaseTest;
@@ -42,30 +41,21 @@ public class ApiTest extends ApiBaseTest {
   @Test(dataProviderClass = DataProvider.class,dataProvider = "user")
   public void createUser(String name, String job){
     long limit = 100;
-
     //create map with data
     Map<String, String> data = new java.util.HashMap<>();
     data.put("name",name);
     data.put("job",job);
-
     //send request with data
     long startTime = System.currentTimeMillis();
     APIResponse response =userRequest.createUser(data);
     long endTime = System.currentTimeMillis();
     //map api response to json
     JsonNode jsonResponse = ApiResponseMapper.mapAPIResponse(response);
-    System.out.println(jsonResponse.toPrettyString());
-
-    //TODO json schema validation
-
-
     //assertions on values
     softAssert.assertEquals(response.status(),201);
-    System.out.println(jsonResponse.get("id").asText());
     softAssert.assertFalse(jsonResponse.get("id").isNull(),  "Id is empty");
     softAssert.assertNotNull(jsonResponse.get("createdAt"));
     softAssert.assertTrue((endTime - startTime) < limit, "Request loading time is higher than limit " + limit + "ms");
     softAssert.assertAll();
   }
-
 }

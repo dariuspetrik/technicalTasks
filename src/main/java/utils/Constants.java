@@ -7,7 +7,6 @@ public class Constants {
 
   public static final String API_URL = "https://reqres.in/api";
   public static final String PATH_USERS = "/users";
-  public static final String JSON_SCHEMA_PATH = "src/test/resources/schema.json";
 
   public static final String PASSWORD = "secret_sauce";
   public static final String STANDARD_USER_USERNAME = "standard_user";
