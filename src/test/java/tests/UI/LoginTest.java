@@ -1,9 +1,9 @@
 package tests.UI;
 
 import base.UiBaseTest;
+import dataProvider.DataProvider;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import testData.DataProvider;
 import utils.Constants;
 
 
