@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa28436-b4b8-4593-af20-20290c7788f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BaseRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enums/RequestMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/requests/UserRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ApiResponseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/build1.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/CommonBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/CommonBaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testData/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/DataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/API/TODO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/API/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testData/DataProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/API/TODO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

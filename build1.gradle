@@ -19,8 +19,8 @@ test {
     useTestNG()
 
 //TestNG suites
-useTestNG {
-    suites 'src/test/resources/testng.xml'
-}
+    useTestNG {
+        suites 'src/test/resources/testng.xml'
+    }
 
 }
