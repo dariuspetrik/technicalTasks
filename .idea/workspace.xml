@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa28436-b4b8-4593-af20-20290c7788f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/BaseRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/RequestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/requests/UserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ApiResponseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/schema.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/CommonBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/CommonBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testData/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dataProvider/DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/API/TODO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/API/ApiTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +35,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Moxymind_Technical_Task_1_2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -36,6 +57,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,25 +73,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/hotovo/Documents/projects/learning/automation/moxymind/technical_task_1_2/Moxymind_Technical_Task_1_2/src/test/resources",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hotovo/Documents/projects/learning/automation/moxymind/technical_task_1_2/Moxymind_Technical_Task_1_2/src/test/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Moxymind_Technical_Task_1_2 [build]">
-    <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.ApiTest.createUser">
+    <configuration name="ApiTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -78,7 +110,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.UI.LoginTest&quot;" />
+            <option value="&quot;tests.API.ApiTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -88,7 +120,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.invalidLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApiTest.createUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -101,7 +133,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.UI.LoginTest.invalidLogin&quot;" />
+            <option value="&quot;tests.API.ApiTest.createUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -111,7 +143,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.performanceGlitchUserLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApiTest.getUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -124,7 +156,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.UI.LoginTest.performanceGlitchUserLogin&quot;" />
+            <option value="&quot;tests.API.ApiTest.getUsers&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -134,7 +166,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.standardUserLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ApiTest.getUsersList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -147,25 +179,13 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.UI.LoginTest.standardUserLogin&quot;" />
+            <option value="&quot;tests.API.ApiTest.getUsersList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <EXTENSION ID="com.intellij.execution.ExternalSystemRunConfigurationJavaExtension">
-        <extension name="net.ashald.envfile">
-          <option name="IS_ENABLED" value="false" />
-          <option name="IS_SUBST" value="false" />
-          <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-          <option name="IS_IGNORE_MISSING_FILES" value="false" />
-          <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-          <ENTRIES>
-            <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-          </ENTRIES>
-        </extension>
-      </EXTENSION>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
@@ -219,20 +239,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.ApiTest" />
+      <item itemvalue="Gradle.ApiTest.createUser" />
+      <item itemvalue="Gradle.ApiTest.getUsers" />
+      <item itemvalue="Gradle.ApiTest.getUsersList" />
       <item itemvalue="Gradle.Moxymind_Technical_Task_1_2 [build]" />
-      <item itemvalue="Gradle.LoginTest" />
-      <item itemvalue="Gradle.LoginTest.invalidLogin" />
-      <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
-      <item itemvalue="Gradle.LoginTest.standardUserLogin" />
       <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ApiTest.createUser" />
+        <item itemvalue="Gradle.ApiTest.getUsersList" />
+        <item itemvalue="Gradle.ApiTest" />
+        <item itemvalue="Gradle.ApiTest.getUsers" />
         <item itemvalue="Gradle.Moxymind_Technical_Task_1_2 [build]" />
-        <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
-        <item itemvalue="Gradle.LoginTest" />
-        <item itemvalue="Gradle.LoginTest.invalidLogin" />
-        <item itemvalue="Gradle.LoginTest.standardUserLogin" />
       </list>
     </recent_temporary>
   </component>
