@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa28436-b4b8-4593-af20-20290c7788f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,17 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Moxymind_Technical_Task_1_2" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -52,7 +61,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hotovo/Documents/projects/learning/automation/moxymind/technical_task_1_2/Moxymind_Technical_Task_1_2/src/test/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hotovo/Documents/projects/learning/automation/technicalTasks&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.1632184&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
@@ -64,7 +76,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Moxymind_Technical_Task_1_2 [build]">
+  <component name="RunManager" selected="Gradle.technicalTasks">
     <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,7 +181,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Moxymind_Technical_Task_1_2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="technicalTasks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,11 +199,23 @@
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <EXTENSION ID="com.intellij.execution.ExternalSystemRunConfigurationJavaExtension">
+        <extension name="net.ashald.envfile">
+          <option name="IS_ENABLED" value="false" />
+          <option name="IS_SUBST" value="false" />
+          <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+          <option name="IS_IGNORE_MISSING_FILES" value="false" />
+          <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+          <ENTRIES>
+            <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          </ENTRIES>
+        </extension>
+      </EXTENSION>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
-      <module name="Moxymind_Technical_Task_1_2.test" />
+      <module name="technicaltasks.test" />
       <shortenClasspath name="NONE" />
       <extension name="net.ashald.envfile">
         <option name="IS_ENABLED" value="false" />
@@ -219,7 +243,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.Moxymind_Technical_Task_1_2 [build]" />
+      <item itemvalue="Gradle.technicalTasks" />
       <item itemvalue="Gradle.LoginTest" />
       <item itemvalue="Gradle.LoginTest.invalidLogin" />
       <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
@@ -228,7 +252,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Moxymind_Technical_Task_1_2 [build]" />
+        <item itemvalue="Gradle.technicalTasks" />
         <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
         <item itemvalue="Gradle.LoginTest" />
         <item itemvalue="Gradle.LoginTest.invalidLogin" />
