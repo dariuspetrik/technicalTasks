@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa28436-b4b8-4593-af20-20290c7788f0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/UiBaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/UiBaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/UI/LoginTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,18 +58,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hotovo/Documents/projects/learning/automation/technicalTasks&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.1632184&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/hotovo/Documents/projects/learning/automation/technicalTasks",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.42873564",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources" />
@@ -76,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/test/java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.technicalTasks">
+  <component name="RunManager" selected="Gradle.LoginTest.test123">
     <configuration name="LoginTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -146,7 +148,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LoginTest.standardUserLogin" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="LoginTest.test123" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -159,25 +161,13 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.UI.LoginTest.standardUserLogin&quot;" />
+            <option value="&quot;tests.UI.LoginTest.test123&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <EXTENSION ID="com.intellij.execution.ExternalSystemRunConfigurationJavaExtension">
-        <extension name="net.ashald.envfile">
-          <option name="IS_ENABLED" value="false" />
-          <option name="IS_SUBST" value="false" />
-          <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-          <option name="IS_IGNORE_MISSING_FILES" value="false" />
-          <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-          <ENTRIES>
-            <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
-          </ENTRIES>
-        </extension>
-      </EXTENSION>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
@@ -243,20 +233,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.LoginTest.test123" />
       <item itemvalue="Gradle.technicalTasks" />
       <item itemvalue="Gradle.LoginTest" />
       <item itemvalue="Gradle.LoginTest.invalidLogin" />
       <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
-      <item itemvalue="Gradle.LoginTest.standardUserLogin" />
       <item itemvalue="TestNG.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.LoginTest.test123" />
         <item itemvalue="Gradle.technicalTasks" />
         <item itemvalue="Gradle.LoginTest.performanceGlitchUserLogin" />
         <item itemvalue="Gradle.LoginTest" />
         <item itemvalue="Gradle.LoginTest.invalidLogin" />
-        <item itemvalue="Gradle.LoginTest.standardUserLogin" />
       </list>
     </recent_temporary>
   </component>

@@ -22,12 +22,15 @@ public class UiBaseTest extends CommonBaseTest {
   private Browser getBrowser(){
     switch (Constants.BROWSER) {
       case "chrome":
-        return playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
+        browser= playwright.chromium().launch(new BrowserType.LaunchOptions().setChannel("chrome").setHeadless(false));
+        break;
       case "firefox":
-        return playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+        browser = playwright.firefox().launch(new BrowserType.LaunchOptions().setHeadless(false));
+        break;
       default:
         throw new IllegalArgumentException("Unsupported browser type: " + Constants.BROWSER);
     }
+    return browser;
   }
 
   public void initializePageObjects() {
