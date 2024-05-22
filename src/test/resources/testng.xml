@@ -4,13 +4,13 @@
 
   <test name="API Tests">
     <packages>
-      <package name="tests.API" />
+      <package name="tests.API"/>
     </packages>
   </test>
 
   <test name="UI Tests">
     <packages>
-      <package name="tests.UI" />
+      <package name="tests.UI"/>
     </packages>
   </test>
 </suite>
