@@ -77,8 +77,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle
 
+      - name: List directory contents
+        run: dir /s
+
       - name: Install dependencies and build
-        run: gradlew.bat build
+        run: path/to/gradlew.bat build
 
       - name: Run Tests
         run: gradlew.bat test
