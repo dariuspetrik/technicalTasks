@@ -78,7 +78,7 @@ jobs:
             ${{ runner.os }}-gradle
 
       - name: Install dependencies and build
-        run: gradlew build
+        run: gradlew.bat build
 
       - name: Run Tests
-        run: gradlew test
+        run: gradlew.bat test
