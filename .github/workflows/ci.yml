@@ -78,7 +78,7 @@ jobs:
             ${{ runner.os }}-gradle
 
       - name: List directory contents
-        run: dir /s
+        run: Get-ChildItem -Recurse
 
       - name: Install dependencies and build
         run: path/to/gradlew.bat build
