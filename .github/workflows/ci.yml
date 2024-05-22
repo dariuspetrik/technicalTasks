@@ -40,11 +40,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle
 
-      - name: Install dependencies and build
+      - name: Install dependencies and build and test
         run: ./gradlew build
-
-      - name: Run Tests
-        run: ./gradlew test
 
   build-and-test-windows:
     runs-on: windows-latest
@@ -80,8 +77,5 @@ jobs:
       - name: List directory contents
         run: Get-ChildItem -Recurse
 
-      - name: Install dependencies and build
+      - name: Install dependencies and build and test
         run: .\gradlew.bat build
-
-      - name: Run Tests
-        run: .\gradlew.bat test
